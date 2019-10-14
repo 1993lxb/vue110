@@ -14,6 +14,7 @@ var router = new VueRouter({
     {path : '/member' , component : MemberContainer},
     {path : '/shopcar' , component : ShopcarContainer},
     {path : '/search' , component : SearchContainer},
+    {path : '/' , redirect : '/home'}
   ],
   linkActiveClass : 'mui-active'
 })
